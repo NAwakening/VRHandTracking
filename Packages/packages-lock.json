@@ -26,13 +26,13 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.ide.visualstudio": "2.0.22",
-        "com.unity.ide.rider": "3.0.26",
+        "com.unity.ide.visualstudio": "2.0.16",
+        "com.unity.ide.rider": "3.0.16",
         "com.unity.ide.vscode": "1.2.5",
         "com.unity.editorcoroutines": "1.0.0",
-        "com.unity.performance.profile-analyzer": "1.2.2",
-        "com.unity.test-framework": "1.1.33",
-        "com.unity.testtools.codecoverage": "1.2.4"
+        "com.unity.performance.profile-analyzer": "1.1.1",
+        "com.unity.test-framework": "1.1.31",
+        "com.unity.testtools.codecoverage": "1.2.2"
       }
     },
     "com.unity.ide.rider": {
@@ -77,14 +77,14 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.performance.profile-analyzer": {
-      "version": "1.2.2",
+      "version": "1.1.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
-      "version": "12.1.13",
+      "version": "12.1.8",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
@@ -108,11 +108,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "12.1.13",
+      "version": "12.1.8",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "12.1.13",
+        "com.unity.render-pipelines.core": "12.1.8",
         "com.unity.searcher": "4.9.1"
       }
     },
@@ -128,7 +128,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.testtools.codecoverage": {
-      "version": "1.2.4",
+      "version": "1.2.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -187,12 +187,13 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.hands": {
-      "version": "1.3.0",
+      "version": "1.5.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.xr": "1.0.0",
         "com.unity.inputsystem": "1.3.0",
+        "com.unity.mathematics": "1.2.6",
         "com.unity.xr.core-utils": "2.2.0",
         "com.unity.xr.management": "4.0.1"
       },
