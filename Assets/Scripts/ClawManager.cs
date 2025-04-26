@@ -30,6 +30,30 @@ public class ClawManager : MonoBehaviour
     void FixedUpdate()
     {
         _rigidbody.MovePosition(_rigidbody.position + _input.normalized * _moveSpeed * Time.fixedDeltaTime);
+        if (transform.position.y < -1.503)
+        {
+            transform.position = new Vector3(transform.position.x, -1.5f, transform.position.z);
+        }
+        if (transform.position.y > 4.23)
+        {
+            transform.position = new Vector3(transform.position.x, 4.20f, transform.position.z);
+        }
+        if (transform.position.x < -15)
+        {
+            transform.position = new Vector3(-15f, transform.position.y, transform.position.z);
+        }
+        if (transform.position.x > -6.4)
+        {
+            transform.position = new Vector3(-6.4f, transform.position.y, transform.position.z);
+        }
+        if (transform.position.z < -4.24)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, -4.2f);
+        }
+        if (transform.position.z > 4.4)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, 4.3f);
+        }
     }
 
     public void ChangeClawState()
