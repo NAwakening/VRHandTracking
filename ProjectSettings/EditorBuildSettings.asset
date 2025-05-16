@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Claw.unity
-    guid: 3f6e744aefe32314fa5a248a8883edb6
+    path: Assets/Scenes/Bowling.unity
+    guid: 18788fa1e6a1e4b4881962cfe483bf65
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 63e3963154cb7a345852dcc4e22db8ec, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 7d76a2d10cf06f944bd40754914b9ee5, type: 2}

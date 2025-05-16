@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Paint
   - OutOfBounds
+  - Pino
+  - bullet
   layers:
   - Default
   - TransparentFX
